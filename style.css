@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Tektur:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Mono&family=Tektur:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul:hover {
+    cursor: pointer;
+  }
+  .company-name:hover{
+    cursor:pointer;
+  }
+  .box h1:hover{
+
+    cursor: pointer;
+  }
+  .box-1 h1:hover{
+
+    cursor: pointer;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  /**NAVBAR**/
+  .navbar {
+    background: linear-gradient(to right, #000000 30%, #01C0C8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  /**Company Name**/
+  .company-name {
+    font-size: 2.5rem;
+    font-weight:800;
+    margin-left: 50px;
+    color: 	#faf0e6;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tektur', cursive;
+  }
+  .company-name:hover {
+   color:#01C0C8;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tektur', cursive;
+  }
+  
+  .nav-links a:hover
+   {
+    color:black;
+  }
+
+  .divider {
+    border-top: 1px solid #ccc;
+  }
+  /**HeroSection**/
+
+  .hero {
+    background:linear-gradient(to right, #000000 25%, #01C0C8);
+    padding: 207px 0;
+    text-align: center;
+    height: auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: rgb(252, 246, 238);
+  }
+  
+  .hero-content p {
+    color: rgb(238, 242, 245);
+    font-size: 1.25rem;
+    
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first-button,
+.second-button {
+  background-color: transparent;
+  border: 2px solid rgb(250, 236, 236); 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  color: white;
+}
+
+.first-button:hover,
+.second-button:hover {
+  background-color:black;
+  color: white;
+  border-color: white;
+}
+/**video Section**/
+
+.video-section {
+  background:linear-gradient(to right, #000000 25%, #01C0C8);
+    color: white;
+    text-align: center;
+    padding: 100px 0; 
+   
+  }
+  
+  .video-container {
+    position: relative;
+    max-width: 75%;
+    height: 10%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    border: 10px solid #1AA260;
+    
+}
+
+
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 150px; 
+  color:black;
+  cursor: pointer;
+}
+  
+  video {
+    width: 100%;
+    max-height: 100%;
+    display: block;
+    
+      
+  }
+  
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background:linear-gradient(to right, #000000 25%, #01C0C8);
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.box-1 {
+  width: 900px;
+  height: 100px;
+  background-color:white;
+  box-shadow: 5px 5px 10px  purple;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.box-1 h1 {
+
+  color: purple;
+  font-weight: 700;
+  
+}
+.box-1 p {
+  color: black
+}
+
+.box {
+  width: 270px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 5px 5px 10px  purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.box h1 {
+
+  color: purple;
+  font-weight: 700;
+  
+}
+.box p {
+  color: black
+}
+
+
+
+
+
+
+
+
+
+
+
