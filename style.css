@@ -226,6 +226,39 @@
   color: black
 }
 
+.move-up:hover{
+  background-color: rgb(212, 209, 209);
+  
+  transition: all .5s;
+  transform : translateY(-10px);
+}
+
+.change-radius:hover{
+  background-color: rgb(212, 209, 209);
+  transition: all 1s;
+  border-radius: 50%;
+}
+
+.move-right:hover{
+  background-color: rgb(212, 209, 209);
+  transition: all .5s;
+  transform : translateX(10px);
+}
+
+.move-left:hover{
+  background-color: rgb(212, 209, 209);
+  transition: all .5s;
+  transform : translateX(-10px);
+}
+
+
+.gradient-color-box:hover{
+  transition: all 1s;
+  background-image: linear-gradient(to right,#01C0C8 35%, #000000);
+}
+
+
+
 
 
 
