@@ -239,17 +239,7 @@
   border-radius: 50%;
 }
 
-.move-right:hover{
-  background-color: rgb(212, 209, 209);
-  transition: all .5s;
-  transform : translateX(10px);
-}
 
-.move-left:hover{
-  background-color: rgb(212, 209, 209);
-  transition: all .5s;
-  transform : translateX(-10px);
-}
 
 
 .gradient-color-box:hover{
